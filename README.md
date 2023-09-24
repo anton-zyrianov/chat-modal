@@ -4,10 +4,8 @@
 
 1. Para poder correr la aplicación en el local lo primero de todo hay que hacer `git clone` de la rama.
 2. Una vez bajado el proyecto, se han de instalar todas las dependencias con `npm i`.
-3. El segundo paso es crear el arhivo `.env` indicando BASE_LINK con el puerto.
-4. Una vez hecho este paso, se utilzia `npm run dev` para correr la aplicación.
-
-La prueba está disponible online utilizando Vercel - [enlace](https://chat-modal.vercel.app/)
+3. El tercer paso es crear el arhivo `.env` indicando VITE_BASE_LINK con el puerto.
+4. Una vez hecho este paso, se utilza `npm run dev -- --port=5173` para correr la aplicación en el puerto 5173 o en el caso de usar otro puerto cambiar el archivo `.env`.
 
 ## Tecnologías utilizadas:
 
