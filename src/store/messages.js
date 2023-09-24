@@ -11,7 +11,6 @@ export const useMessagesStore = defineStore("message", {
         format: "Documento/PDF",
         size: "3.8 mb",
         date: "28 dic 2018 / 14:45",
-        downloadUrl: "url",
       },
       {
         id: 2,
@@ -35,7 +34,6 @@ export const useMessagesStore = defineStore("message", {
         format: "Documento/PDF",
         size: "4.8 mb",
         date: "30 dic 2018 / 8:22",
-        downloadUrl: "url",
       },
       {
         id: 5,

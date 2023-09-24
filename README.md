@@ -1,7 +1,17 @@
-# Vue 3 + Vite
+# Prueba desarrollo Front-End isEazy
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1. Para poder correr la aplicación en el local lo primero de todo hay que hacer `git clone` de la rama.
+2. Una vez bajado el proyecto, se han de instalar todas las dependencias con `npm i`.
+3. El segundo paso es crear el arhivo `.env` indicando BASE_LINK con el puerto.
+4. Una vez hecho este paso, se utilzia `npm run dev` para correr la aplicación.
 
-## Recommended IDE Setup
+## Tecnologías utilizadas:
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Vue 3
+- Vite
+- Pinia
+- TailwindCSS
+
+Además, se ha utilizado Prettier y ESLint para formateo del código y HeadlessUI como base para el modal, ya que el ejercicio consistía en contruir un pop-up ya abierto y de esta menera, se ha conseguido un modal totalmente accesible. Por último, se utilizó la librería axios para poder ejecutar la funcionalidad de descargar el archivo PDF.
+
+Se puede enviar los mensajes tanto por parte del profesor, como del alumno. Para ello, primero hay que escoger el rol y a continuación, escribir el cuerpo del mensaje. Estos mensajes se irán almacenando en el array correspondiente. Debido a que la app no está conectada a ningún servidor, una vez actualizada la página, toda la información nueva se pierde.

@@ -32,7 +32,9 @@ defineProps({
 
 const onDownloadFile = () => {
   axios({
-    url: "http://localhost:5173/src/assets/prueba-desarrollo-front-end.pdf",
+    url: `${
+      import.meta.env.BASE_LINK
+    }/src/assets/prueba-desarrollo-front-end.pdf`,
     method: "GET",
     responseType: "blob",
   }).then((response) => {
