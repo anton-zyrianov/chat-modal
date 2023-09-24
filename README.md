@@ -5,6 +5,8 @@
 3. El segundo paso es crear el arhivo `.env` indicando BASE_LINK con el puerto.
 4. Una vez hecho este paso, se utilzia `npm run dev` para correr la aplicación.
 
+La prueba está disponible online utilizando Vercel - [enlace](https://chat-modal.vercel.app/)
+
 ## Tecnologías utilizadas:
 
 - Vue 3
@@ -12,6 +14,6 @@
 - Pinia
 - TailwindCSS
 
-Además, se ha utilizado Prettier y ESLint para formateo del código y HeadlessUI como base para el modal, ya que el ejercicio consistía en contruir un pop-up ya abierto y de esta menera, se ha conseguido un modal totalmente accesible. Por último, se utilizó la librería axios para poder ejecutar la funcionalidad de descargar el archivo PDF.
+Además, se ha utilizado **Prettier** y **ESLint** para formateo del código y **HeadlessUI** como base para el modal, ya que el ejercicio consistía en contruir un pop-up ya abierto y de esta menera, se ha conseguido un modal totalmente accesible. Por último, se utilizó la librería **axios** para poder ejecutar la funcionalidad de descargar el archivo PDF.
 
 Se puede enviar los mensajes tanto por parte del profesor, como del alumno. Para ello, primero hay que escoger el rol y a continuación, escribir el cuerpo del mensaje. Estos mensajes se irán almacenando en el array correspondiente. Debido a que la app no está conectada a ningún servidor, una vez actualizada la página, toda la información nueva se pierde.

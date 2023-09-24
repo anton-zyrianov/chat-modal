@@ -41,8 +41,8 @@ defineProps({
 });
 
 const routeImages = {
-  teacherImage: "../src/assets/teacher.jpg",
-  studentImage: "../src/assets/student.jpg",
+  teacherImage: "/src/assets/teacher.jpg",
+  studentImage: "/src/assets/student.jpg",
 };
 </script>
 
