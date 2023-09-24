@@ -33,7 +33,7 @@ defineProps({
 const onDownloadFile = () => {
   axios({
     url: `${
-      import.meta.env.BASE_LINK
+      import.meta.env.VITE_BASE_LINK
     }/src/assets/prueba-desarrollo-front-end.pdf`,
     method: "GET",
     responseType: "blob",
