@@ -18,10 +18,8 @@
         <div class="fixed inset-0 bg-black bg-opacity-70" />
       </TransitionChild>
 
-      <div class="fixed inset-0 overflow-y-auto">
-        <div
-          class="flex min-h-full items-center justify-center p-4 text-center"
-        >
+      <div class="fixed inset-0 overflow-y-scroll">
+        <div class="flex min-h-fit items-center justify-center p-4">
           <TransitionChild
             as="template"
             enter="duration-300 ease-out"
@@ -48,7 +46,9 @@
                 </div>
               </DialogTitle>
 
-              <ChatMessages />
+              <div class="h-[calc(100vh-12rem)] overflow-y-auto">
+                <ChatMessages />
+              </div>
 
               <ChatInput class="border-t border-black/10" />
             </DialogPanel>
