@@ -1,3 +1,5 @@
+![Descripción de la imagen](https://i.ibb.co/0rkQb5Z/Captura-de-pantalla-2023-09-25-a-las-0-16-58.png)
+
 # Prueba desarrollo Front-End isEazy
 
 1. Para poder correr la aplicación en el local lo primero de todo hay que hacer `git clone` de la rama.
