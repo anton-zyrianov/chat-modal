@@ -1,0 +1,27 @@
+{
+  "name": "chat-modal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "axios": "^1.5.0",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.50.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "postcss": "^8.4.30",
+    "prettier": "3.0.3",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.5"
+  }
+}
