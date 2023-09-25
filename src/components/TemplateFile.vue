@@ -1,6 +1,5 @@
 <template>
   <div
-    v-if="messageContent.type === 'delivery'"
     :class="messageContent.id !== 1 && 'border-t'"
     class="text-left space-y-4 border-b border-black/10 flex justify-between items-center py-4 px-4"
   >

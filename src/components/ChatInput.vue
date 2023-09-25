@@ -25,7 +25,7 @@
 
       <input
         type="text"
-        class="bg-gray-200 border-gray-300 border stroke-1 h-8 rounded-full w-full"
+        class="bg-gray-200 border-gray-300 border stroke-1 h-8 rounded-full w-full px-4"
         id="message"
         v-model="textMessage"
         required
@@ -53,5 +53,6 @@ const messages = useMessagesStore();
 
 const postData = () => {
   messages.addMessage(role.value, textMessage.value);
+  textMessage.value = "";
 };
 </script>
